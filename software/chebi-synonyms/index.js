@@ -71,7 +71,6 @@ Promise.all(promises).then(result => {
 
 function addNamespace(ontology, namespace) {
     const index = ontology.indexOf(RDF_TAG);
-    console.log('index', index)
     return ontology.splice(index + RDF_TAG.length + 1, 0, namespace + ' ');
 }
 
