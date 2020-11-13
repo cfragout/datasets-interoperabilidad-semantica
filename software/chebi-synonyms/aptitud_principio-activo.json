@@ -2953,8 +2953,8 @@
           "selection": [
             {
               "v": {
-                "v": "cipermetrina  ",
-                "l": "cipermetrina  "
+                "v": "cipermetrina",
+                "l": "cipermetrina"
               }
             }
           ],
@@ -2965,7 +2965,7 @@
       "mode": "row-based"
     },
     "columnName": "Principio activo",
-    "similarValue": "cipermetrina  ",
+    "similarValue": "cipermetrina",
     "judgment": "matched",
     "match": {
       "id": "http://purl.obolibrary.org/obo/CHEBI_4042",
@@ -2976,7 +2976,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item cypermethrin (http://purl.obolibrary.org/obo/CHEBI_4042) for cells containing \"cipermetrina  \" in column Principio activo"
+    "description": "Match item cypermethrin (http://purl.obolibrary.org/obo/CHEBI_4042) for cells containing \"cipermetrina\" in column Principio activo"
   },
   {
     "op": "core/recon-judge-similar-cells",
@@ -9325,65 +9325,6 @@
           "selection": [
             {
               "v": {
-                "v": "mepiquat cloruro",
-                "l": "mepiquat cloruro"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        }
-      ],
-      "mode": "row-based"
-    },
-    "columnName": "Principio activo",
-    "similarValue": "mepiquat cloruro",
-    "judgment": "matched",
-    "match": {
-      "id": "http://purl.obolibrary.org/obo/CHEBI_81772",
-      "name": "mepiquat chloride",
-      "types": [
-        "http://www.w3.org/2002/07/owl#Class"
-      ],
-      "score": 0.7647058963775635
-    },
-    "shareNewTopics": false,
-    "description": "Match item mepiquat chloride (http://purl.obolibrary.org/obo/CHEBI_81772) for cells containing \"mepiquat cloruro\" in column Principio activo"
-  },
-  {
-    "op": "core/recon-judge-similar-cells",
-    "engineConfig": {
-      "facets": [
-        {
-          "type": "list",
-          "name": "Principio activo: judgment",
-          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
-          "columnName": "Principio activo",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
-                "v": "none",
-                "l": "none"
-              }
-            }
-          ],
-          "selectBlank": false,
-          "selectError": false
-        },
-        {
-          "type": "list",
-          "name": "Principio activo",
-          "expression": "value",
-          "columnName": "Principio activo",
-          "invert": false,
-          "omitBlank": false,
-          "omitError": false,
-          "selection": [
-            {
-              "v": {
                 "v": "oxitetraciclina clorhidrato",
                 "l": "oxitetraciclina clorhidrato"
               }
@@ -9939,5 +9880,3678 @@
     },
     "shareNewTopics": false,
     "description": "Match item trichlopyr (http://purl.obolibrary.org/obo/CHEBI_9682) for cells containing \"triclopyr\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "acroleina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_15368",
+      "name": "acrolein",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item acrolein (http://purl.obolibrary.org/obo/CHEBI_15368) for cells containing \"acroleina\" in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "acirfluorfen sodico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "acifluorfen sodico"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "acifluorfen sodico",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_73172",
+      "name": "acifluorfen",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item acifluorfen (http://purl.obolibrary.org/obo/CHEBI_73172) for cells containing \"acifluorfen sodico\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "acrinatrina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_39091",
+      "name": "acrinathrin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item acrinathrin (http://purl.obolibrary.org/obo/CHEBI_39091) for cells containing \"acrinatrina\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "alcoholes grasos",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_24026",
+      "name": "fatty alcohol",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item fatty alcohol (http://purl.obolibrary.org/obo/CHEBI_24026) for cells containing \"alcoholes grasos\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "ametrina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_22472",
+      "name": "ametryn",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ametryn (http://purl.obolibrary.org/obo/CHEBI_22472) for cells containing \"ametrina\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "azufre",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_26833",
+      "name": "sulfur atom",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item sulfur atom (http://purl.obolibrary.org/obo/CHEBI_26833) for cells containing \"azufre\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "clorprofam",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_34630",
+      "name": "chlorpropham",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item chlorpropham (http://purl.obolibrary.org/obo/CHEBI_34630) for cells containing \"clorprofam\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "cloropicrina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_39285",
+      "name": "chloropicrin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item chloropicrin (http://purl.obolibrary.org/obo/CHEBI_39285) for cells containing \"cloropicrina\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "cumetetralil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_80742",
+      "name": "Coumatetralyl",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Coumatetralyl (http://purl.obolibrary.org/obo/CHEBI_80742) for cells containing \"cumetetralil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "daminozine",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_4312",
+      "name": "Daminozide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Daminozide (http://purl.obolibrary.org/obo/CHEBI_4312) for cells containing \"daminozine\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "diclofo metil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_4510",
+      "name": "diclofop-methyl",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item diclofop-methyl (http://purl.obolibrary.org/obo/CHEBI_4510) for cells containing \"diclofo metil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "difenilamina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_4640",
+      "name": "diphenylamine",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item diphenylamine (http://purl.obolibrary.org/obo/CHEBI_4640) for cells containing \"difenilamina\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "biciclopirona",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_136271",
+      "name": "bicyclopyrone",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item bicyclopyrone (http://purl.obolibrary.org/obo/CHEBI_136271) for cells containing \"biciclopirona\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "dimetiphin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81912",
+      "name": "Dimethipin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Dimethipin (http://purl.obolibrary.org/obo/CHEBI_81912) for cells containing \"dimetiphin\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "fenpropatrina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_39353",
+      "name": "fenpropathrin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item fenpropathrin (http://purl.obolibrary.org/obo/CHEBI_39353) for cells containing \"fenpropatrina\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "caolinita",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_140499",
+      "name": "kaolinite",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item kaolinite (http://purl.obolibrary.org/obo/CHEBI_140499) for cells containing \"caolinita\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "cialofop butil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81863",
+      "name": "Cyhalofop-butyl",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cyhalofop-butyl (http://purl.obolibrary.org/obo/CHEBI_81863) for cells containing \"cialofop butil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "difetialone",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81893",
+      "name": "Difethialone",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Difethialone (http://purl.obolibrary.org/obo/CHEBI_81893) for cells containing \"difetialone\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "tolcloros metil",
+                "l": "tolcloros metil"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "tolcloros metil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81731",
+      "name": "tolclofos-methyl",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item tolclofos-methyl (http://purl.obolibrary.org/obo/CHEBI_81731) for cells containing \"tolcloros metil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "terbutrina",
+                "l": "terbutrina"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "terbutrina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_44156",
+      "name": "terbutryn",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item terbutryn (http://purl.obolibrary.org/obo/CHEBI_44156) for cells containing \"terbutrina\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "teflutrina",
+                "l": "teflutrina"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "teflutrina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_9430",
+      "name": "tefluthrin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item tefluthrin (http://purl.obolibrary.org/obo/CHEBI_9430) for cells containing \"teflutrina\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "tierra de diatomeas",
+                "l": "tierra de diatomeas"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "tierra de diatomeas",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_82661",
+      "name": "diatomaceous earth",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item diatomaceous earth (http://purl.obolibrary.org/obo/CHEBI_82661) for cells containing \"tierra de diatomeas\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "trifenil acetato de estaño",
+                "l": "trifenil acetato de estaño"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "trifenil acetato de estaño",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81918",
+      "name": "fentin acetate",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item fentin acetate (http://purl.obolibrary.org/obo/CHEBI_81918) for cells containing \"trifenil acetato de estaño\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "meptyl dinocap",
+                "l": "meptyl dinocap"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "meptyl dinocap",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_83372",
+      "name": "meptyldinocap",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item meptyldinocap (http://purl.obolibrary.org/obo/CHEBI_83372) for cells containing \"meptyl dinocap\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "metabenztiazuron",
+                "l": "metabenztiazuron"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "metabenztiazuron",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_6803",
+      "name": "Methabenzthiazuron",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Methabenzthiazuron (http://purl.obolibrary.org/obo/CHEBI_6803) for cells containing \"metabenztiazuron\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "sulfluramida",
+                "l": "sulfluramida"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "sulfluramida",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81945",
+      "name": "sulfluramid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item sulfluramid (http://purl.obolibrary.org/obo/CHEBI_81945) for cells containing \"sulfluramida\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "sulfato tribásico de cobre",
+                "l": "sulfato tribásico de cobre"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "sulfato tribásico de cobre",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_23414",
+      "name": "copper(II) sulfate",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item copper(II) sulfate (http://purl.obolibrary.org/obo/CHEBI_23414) for cells containing \"sulfato tribásico de cobre\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "sulfato cuprico pentahidratado",
+                "l": "sulfato cuprico pentahidratado"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "sulfato cuprico pentahidratado",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_31440",
+      "name": "copper(II) sulfate pentahydrate",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item copper(II) sulfate pentahydrate (http://purl.obolibrary.org/obo/CHEBI_31440) for cells containing \"sulfato cuprico pentahidratado\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "tifensulfuron metil",
+                "l": "tifensulfuron metil"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "tifensulfuron metil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_83453",
+      "name": "thifensulfuron-methyl",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item thifensulfuron-methyl (http://purl.obolibrary.org/obo/CHEBI_83453) for cells containing \"tifensulfuron metil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "sulfato de gentamicina",
+                "l": "sulfato de gentamicina"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "sulfato de gentamicina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_5312",
+      "name": "gentamicin sulfate",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item gentamicin sulfate (http://purl.obolibrary.org/obo/CHEBI_5312) for cells containing \"sulfato de gentamicina\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "hidroxido de cobre",
+                "l": "hidroxido de cobre"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "hidroxido de cobre",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81907",
+      "name": "Copper hydroxide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Copper hydroxide (http://purl.obolibrary.org/obo/CHEBI_81907) for cells containing \"hidroxido de cobre\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "dimetil disulfuro",
+                "l": "dimetil disulfuro"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "dimetil disulfuro",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_4608",
+      "name": "dimethyl disulfide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item dimethyl disulfide (http://purl.obolibrary.org/obo/CHEBI_4608) for cells containing \"dimetil disulfuro\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "fostiazate",
+                "l": "fostiazate"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "fostiazate",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_38692",
+      "name": "fosthiazate",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item fosthiazate (http://purl.obolibrary.org/obo/CHEBI_38692) for cells containing \"fostiazate\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "piroxasulfone",
+                "l": "piroxasulfone"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "piroxasulfone",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_88956",
+      "name": "pyroglutamylglutamine",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item pyroglutamylglutamine (http://purl.obolibrary.org/obo/CHEBI_88956) for cells containing \"piroxasulfone\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "piraflufen etil",
+                "l": "piraflufen etil"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "piraflufen etil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81828",
+      "name": "pyraflufen-ethyl",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item pyraflufen-ethyl (http://purl.obolibrary.org/obo/CHEBI_81828) for cells containing \"piraflufen etil\" in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "penoxulam",
+                "l": "penoxulam"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "penoxulam"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "penoxsulam"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "penoxsulam",
+                "l": "penoxsulam"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "penoxsulam",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81776",
+      "name": "Penoxsulam",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Penoxsulam (http://purl.obolibrary.org/obo/CHEBI_81776) for cells containing \"penoxsulam\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "tebutiuron",
+                "l": "tebutiuron"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "tebutiuron",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81745",
+      "name": "Tebuthiuron",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tebuthiuron (http://purl.obolibrary.org/obo/CHEBI_81745) for cells containing \"tebutiuron\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "tiadiazuron",
+                "l": "tiadiazuron"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "tiadiazuron",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81977",
+      "name": "Thidiazuron",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Thidiazuron (http://purl.obolibrary.org/obo/CHEBI_81977) for cells containing \"tiadiazuron\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "propizamida",
+                "l": "propizamida"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "propizamida",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_34935",
+      "name": "propyzamide",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item propyzamide (http://purl.obolibrary.org/obo/CHEBI_34935) for cells containing \"propizamida\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "profoxidim",
+                "l": "profoxidim"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "profoxidim",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_144786",
+      "name": "profoxydim",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item profoxydim (http://purl.obolibrary.org/obo/CHEBI_144786) for cells containing \"profoxidim\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "oleato de etilo",
+                "l": "oleato de etilo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "oleato de etilo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_84940",
+      "name": "ethyl oleate",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item ethyl oleate (http://purl.obolibrary.org/obo/CHEBI_84940) for cells containing \"oleato de etilo\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "ortofenilfenato de sodio",
+                "l": "ortofenilfenato de sodio"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "ortofenilfenato de sodio",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_8070",
+      "name": "phenobarbital sodium",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item phenobarbital sodium (http://purl.obolibrary.org/obo/CHEBI_8070) for cells containing \"ortofenilfenato de sodio\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "metaldehido",
+                "l": "metaldehido"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "metaldehido",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81931",
+      "name": "Metaldehyde",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Metaldehyde (http://purl.obolibrary.org/obo/CHEBI_81931) for cells containing \"metaldehido\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "hexazinona",
+                "l": "hexazinona"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "hexazinona",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_5705",
+      "name": "Hexazinone",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Hexazinone (http://purl.obolibrary.org/obo/CHEBI_5705) for cells containing \"hexazinona\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "dimoxistrobin",
+                "l": "dimoxistrobin"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "dimoxistrobin",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_83218",
+      "name": "dimoxystrobin",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item dimoxystrobin (http://purl.obolibrary.org/obo/CHEBI_83218) for cells containing \"dimoxistrobin\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "dimetomorf",
+                "l": "dimetomorf"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "dimetomorf",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81848",
+      "name": "dimethomorph",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item dimethomorph (http://purl.obolibrary.org/obo/CHEBI_81848) for cells containing \"dimetomorf\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "bispiribac sodico",
+                "l": "bispiribac sodico"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "bispiribac sodico",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81757",
+      "name": "Bispyribac-sodium",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Bispyribac-sodium (http://purl.obolibrary.org/obo/CHEBI_81757) for cells containing \"bispiribac sodico\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aminotriazol",
+                "l": "aminotriazol"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "aminotriazol",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_40036",
+      "name": "amitrole",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item amitrole (http://purl.obolibrary.org/obo/CHEBI_40036) for cells containing \"aminotriazol\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "range",
+          "name": "Principio activo: best candidate's score",
+          "expression": "cell.recon.best.score",
+          "columnName": "Principio activo",
+          "from": 0.857,
+          "to": 1.002,
+          "selectNumeric": true,
+          "selectNonNumeric": true,
+          "selectBlank": true,
+          "selectError": true
+        },
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "2,4-d",
+                "l": "2,4-d"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "2,4-d",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_28854",
+      "name": "2,4-D",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item 2,4-D (http://purl.obolibrary.org/obo/CHEBI_28854) for cells containing \"2,4-d\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "2,4 dp",
+                "l": "2,4 dp"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "2,4 dp",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_75375",
+      "name": "dichlorprop",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item dichlorprop (http://purl.obolibrary.org/obo/CHEBI_75375) for cells containing \"2,4 dp\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "amisulbron",
+                "l": "amisulbron"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "amisulbron",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_81846",
+      "name": "amisulbrom",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item amisulbrom (http://purl.obolibrary.org/obo/CHEBI_81846) for cells containing \"amisulbron\" in column Principio activo"
+  },
+   {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "diclofop metil",
+                "l": "diclofop metil"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "diclofop metil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_4510",
+      "name": "diclofop-methyl",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.800000011920929
+    },
+    "shareNewTopics": false,
+    "description": "Match item diclofop-methyl (http://purl.obolibrary.org/obo/CHEBI_4510) for cells containing \"diclofop metil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "clodinafop propargil",
+                "l": "clodinafop propargil"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "clodinafop propargil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_132921",
+      "name": "clodinafop-propargyl",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.8999999761581421
+    },
+    "shareNewTopics": false,
+    "description": "Match item clodinafop-propargyl (http://purl.obolibrary.org/obo/CHEBI_132921) for cells containing \"clodinafop propargil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "cloransulam metil",
+                "l": "cloransulam metil"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "cloransulam metil",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_3760",
+      "name": "cloransulam-methyl",
+      "types": [
+        "http://www.w3.org/2002/07/owl#Class"
+      ],
+      "score": 0.8333333134651184
+    },
+    "shareNewTopics": false,
+    "description": "Match item cloransulam-methyl (http://purl.obolibrary.org/obo/CHEBI_3760) for cells containing \"cloransulam metil\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "acido citrico",
+                "l": "acido citrico"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "acido citrico",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_30769",
+      "name": "citric acid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item citric acid (http://purl.obolibrary.org/obo/CHEBI_30769) for cells containing \"acido citrico\" in column Principio activo"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "acido borico",
+                "l": "acido borico"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "similarValue": "acido borico",
+    "judgment": "matched",
+    "match": {
+      "id": "http://purl.obolibrary.org/obo/CHEBI_33118",
+      "name": "boric acid",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item boric acid (http://purl.obolibrary.org/obo/CHEBI_33118) for cells containing \"acido borico\" in column Principio activo"
   }
 ]
