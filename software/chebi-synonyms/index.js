@@ -41,7 +41,6 @@ Promise.all(promises).then(result => {
     let errorsCount = 0;
 
     if (ontology.indexOf(SKOS_NAMESPACE) === -1) {
-        console.log('_________________aca')
         // add skos namespace
         ontology = addNamespace(ontology, SKOS_NAMESPACE);
     }
