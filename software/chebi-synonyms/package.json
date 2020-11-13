@@ -1,7 +1,7 @@
 {
-  "name": "cheby-synonyms",
+  "name": "chebi-synonyms",
   "version": "1.0.0",
-  "description": "Given an ontology template, create an extended version of it with added synonyms",
+  "description": "Given the chebi ontology, create a modified version of it with added synonyms",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

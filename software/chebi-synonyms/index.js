@@ -7,6 +7,8 @@ fs = require('fs');
 commandLineArgs = require('command-line-args');
 
 const RECONCILED_CELL = 'core/recon-judge-similar-cells';
+const SKOS_NAMESPACE = 'xmlns:skos="http://www.w3.org/2004/02/skos/core#"'
+const RDF_TAG = '<rdf:RDF'
 
 // program parameters
 const optionDefinitions = [
@@ -32,16 +34,22 @@ const promises = [
 ];
 
 Promise.all(promises).then(result => {
-    // open refine grel
+    // openRefine grel
     const grel = JSON.parse(result[0]);
     let ontology = result[1];
     let tagsCount = 0;
     let errorsCount = 0;
 
+    if (ontology.indexOf(SKOS_NAMESPACE) === -1) {
+        console.log('_________________aca')
+        // add skos namespace
+        ontology = addNamespace(ontology, SKOS_NAMESPACE);
+    }
+
     // iterate through the content
     grel.forEach(element => {
         if (element.op === RECONCILED_CELL) {
-            const modifiedOntology = insertLabelInOntology(ontology, element);
+            const modifiedOntology = insertLabelIntoOntology(ontology, element);
             if (modifiedOntology) {
                 ontology = modifiedOntology;
                 tagsCount++;
@@ -62,15 +70,22 @@ Promise.all(promises).then(result => {
 	});
 });
 
-function insertLabelInOntology(ontology, element) {
+function addNamespace(ontology, namespace) {
+    const index = ontology.indexOf(RDF_TAG);
+    console.log('index', index)
+    return ontology.splice(index + RDF_TAG.length + 1, 0, namespace + ' ');
+}
+
+function insertLabelIntoOntology(ontology, element) {
     const classTag = `<owl:Class rdf:about="${element.match.id}">`;
-    const label = getLabelTagForElement(element);
+    // const classTag = `<owl:Class rdf:about="${element.match.id}">`;
+    const label = getSynonymTagForElement(element);
     const index = ontology.indexOf(classTag);
     if (index > -1) {
         // insert label into ontology owl:class
         return ontology.splice(index  + classTag.length, 0, label);
     } 
-    // console.log(`No se encontro etiqueta para ${element.match.id} - ${element.match.name} en la ontologia.`)
+    console.log(`No se encontro etiqueta para ${element.match.id} - ${element.match.name} en la ontologia.`)
 }
 
 function readFromFile(file, format = '') {
@@ -87,9 +102,9 @@ function readFromFile(file, format = '') {
 }
 
 // given an element from the GREL return a tag that represents a synonym in the ontology
-function getLabelTagForElement(element) {
-    const synonymTag = '<AnnotationAssertion> <AnnotationProperty abbreviatedIRI="rdfs:label"/> <AbbreviatedIRI>obo:{{id}}</AbbreviatedIRI> <Literal xml:lang="es">{{value}}</Literal> </AnnotationAssertion>';
-    return '\n' + synonymTag.replace('{{id}}', getElementChebiId(element)).replace('{{value}}', element.similarValue) + '\n';
+function getSynonymTagForElement(element) {
+    const synonymTag = '<skos:prefLabel>{{value}}</skos:prefLabel>';
+    return '\n' + synonymTag.replace('{{value}}', element.similarValue) + '\n';
 }
 
 // returns the chebi id of a grel object
