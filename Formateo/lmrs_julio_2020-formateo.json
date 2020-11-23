@@ -1,0 +1,830 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Principio activo using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Principio activo using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Aptitud using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Aptitud using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Principio activo using expression value.toLowercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Aptitud using expression value.toLowercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression value.toLowercase()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "Principio activo",
+          "expression": "value",
+          "columnName": "Principio activo",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "aceite mineral / aceite mineral blanco",
+                "l": "aceite mineral / aceite mineral blanco"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "aceite mineral / aceite mineral blanco"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "aceite mineral blanco"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "abamectina/avermectina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "avermectina"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "acido giberelico/ giberelina a3"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "giberelina a3"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "alfacipermetrina/alfametrina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "alfacipermetrina"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cloridazon / pirazon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cloridazon"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "clorpirifos etil/clorpirifos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "clorpirifos"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "clorprofam / c.i.p.c"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "clorprofam"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cyantraniliprole (cyazypyr)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cyantraniliprole"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cyflutrin / cyflutrina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cyflutrina"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "dalapon / acido 2,2 dicloropropionico"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "dalapon"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "deltametrina / decametrina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "deltametrina"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "diclorprop / 2,4 dp"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "2,4 dp"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "dimetsulfuron / nicosulfuron"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nicosulfuron"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "gamacialotrina / lambdacialotrina"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lambdacialotrina"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "glifosato / glifosato acido"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "glifosato"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "mercaptotion / malation"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "malation"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "metiocarb / metmercapturon"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "metiocarb"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "metolacloro / s- metolacloro"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "metolacloro"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "paraquat (dicloruro)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "paraquat"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "profoxidim /clefoxidim"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "profoxidim"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "quizalofop - etil /aciprofen etil"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "quizalofop - etil"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Principio activo",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "tebuconazole / fenetrazole"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tebuconazole"
+      }
+    ],
+    "description": "Mass edit cells in column Principio activo"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "jython:return value.replace(')','').replace('(','')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Aptitud using expression jython:return value.replace(')','').replace('(','')"
+  },
+  {
+    "op": "core/multivalued-cell-split",
+    "columnName": "Aptitud",
+    "keyColumnName": "Principio activo",
+    "mode": "separator",
+    "separator": " - ",
+    "regex": false,
+    "description": "Split multi-valued cells in column Aptitud"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Cultivos",
+    "description": "Fill down cells in column Cultivos"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Residuos (mg /Kg)",
+    "description": "Fill down cells in column Residuos (mg /Kg)"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Post Cosecha",
+    "description": "Fill down cells in column Post Cosecha"
+  },
+  {
+    "op": "core/fill-down",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "Principio activo",
+    "description": "Fill down cells in column Principio activo"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ac"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "acaricida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "in"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "insecticida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ne"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "nematicida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "trat de suelos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tratamiento de suelos"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Aptitud using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "tratamiento semillas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tratamiento de semillas"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "hormiquicida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "hormiguicida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "funguicida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fungicida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Aptitud",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "antídoto de herbicida"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "antidoto de herbicida"
+      }
+    ],
+    "description": "Mass edit cells in column Aptitud"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "alfafla"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "alfalfa"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  }
+]
