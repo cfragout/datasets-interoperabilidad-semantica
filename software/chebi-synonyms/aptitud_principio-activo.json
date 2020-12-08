@@ -4487,8 +4487,8 @@
           "selection": [
             {
               "v": {
-                "v": "m.c.p.a.",
-                "l": "m.c.p.a."
+                "v": "m.c.p.a",
+                "l": "m.c.p.a"
               }
             }
           ],
@@ -4499,7 +4499,7 @@
       "mode": "row-based"
     },
     "columnName": "Principio activo",
-    "similarValue": "m.c.p.a.",
+    "similarValue": "m.c.p.a",
     "judgment": "matched",
     "match": {
       "id": "http://purl.obolibrary.org/obo/CHEBI_50099",
@@ -4510,7 +4510,7 @@
       "score": 100
     },
     "shareNewTopics": false,
-    "description": "Match item (4-chloro-2-methylphenoxy)acetic acid (http://purl.obolibrary.org/obo/CHEBI_50099) for cells containing \"m.c.p.a.\" in column Principio activo"
+    "description": "Match item (4-chloro-2-methylphenoxy)acetic acid (http://purl.obolibrary.org/obo/CHEBI_50099) for cells containing \"m.c.p.a\" in column Principio activo"
   },
   {
     "op": "core/recon-judge-similar-cells",
