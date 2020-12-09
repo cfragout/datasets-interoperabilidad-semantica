@@ -1750,6 +1750,31 @@
                 }
             ]
         },
+                {
+            "namespace": "owl",
+            "name": "Class",
+            "attributes": [
+                {
+                    "namespace": "rdf",
+                    "name": "about",
+                    "value": "${{NAMESPACE_INDEX}}"
+                }
+            ],
+            "content": [
+                {
+                    "namespace": "rdfs",
+                    "name": "label",
+                    "attributes": [
+                        {
+                            "namespace": "rdf",
+                            "name": "datatype",
+                            "value": "http://www.w3.org/2001/XMLSchema#string"
+                        }
+                    ],
+                    "value": "tucuricida"
+                }
+            ]
+        },
         {
             "namespace": "owl",
             "name": "Class",
