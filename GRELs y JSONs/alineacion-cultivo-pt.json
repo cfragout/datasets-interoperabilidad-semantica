@@ -1,0 +1,2250 @@
+[
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Mandioca",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487154129",
+      "name": "Mandioca",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mandioca (http://aims.fao.org/aos/agrovoc/xl_pt_1299487154129) for cells containing \"Mandioca\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Cana-de-açúcar",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487024021",
+      "name": "Cana de açúcar",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.8571428656578064
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cana de açúcar (http://aims.fao.org/aos/agrovoc/xl_pt_1299487024021) for cells containing \"Cana-de-açúcar\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Pepino",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487162051",
+      "name": "Pepino",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pepino (http://aims.fao.org/aos/agrovoc/xl_pt_1299487162051) for cells containing \"Pepino\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Soja",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487181561",
+      "name": "Soja",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Soja (http://aims.fao.org/aos/agrovoc/xl_pt_1299487181561) for cells containing \"Soja\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Tomate",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487137724",
+      "name": "Tomate",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Tomate (http://aims.fao.org/aos/agrovoc/xl_pt_1299487137724) for cells containing \"Tomate\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Kiwi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486923403",
+      "name": "Kiwi",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Kiwi (http://aims.fao.org/aos/agrovoc/xl_pt_1299486923403) for cells containing \"Kiwi\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Acelga",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487129860",
+      "name": "Acelga",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Acelga (http://aims.fao.org/aos/agrovoc/xl_pt_1299487129860) for cells containing \"Acelga\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Arroz",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486833242",
+      "name": "Arroz",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Arroz (http://aims.fao.org/aos/agrovoc/xl_pt_1299486833242) for cells containing \"Arroz\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Caqui",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486922071",
+      "name": "Caqui",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Caqui (http://aims.fao.org/aos/agrovoc/xl_pt_1299486922071) for cells containing \"Caqui\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Acerola",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299496688495",
+      "name": "Acerola",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Acerola (http://aims.fao.org/aos/agrovoc/xl_pt_1299496688495) for cells containing \"Acerola\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Feijão",
+                "l": "Feijão"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Feijão",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487107366",
+      "name": "Feijão comum",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Feijão comum (http://aims.fao.org/aos/agrovoc/xl_pt_1299487107366) for cells containing \"Feijão\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Batata",
+                "l": "Batata"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Batata",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487176933",
+      "name": "Batata",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Batata (http://aims.fao.org/aos/agrovoc/xl_pt_1299487176933) for cells containing \"Batata\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Café",
+                "l": "Café"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Café",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486558084",
+      "name": "Café",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Café (http://aims.fao.org/aos/agrovoc/xl_pt_1299486558084) for cells containing \"Café\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Trigo",
+                "l": "Trigo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Trigo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486836834",
+      "name": "Trigo",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Trigo (http://aims.fao.org/aos/agrovoc/xl_pt_1299486836834) for cells containing \"Trigo\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Uva",
+                "l": "Uva"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Uva",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486903258",
+      "name": "Uva",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Uva (http://aims.fao.org/aos/agrovoc/xl_pt_1299486903258) for cells containing \"Uva\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Berinjela",
+                "l": "Berinjela"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Berinjela",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487147128",
+      "name": "Beringela",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Beringela (http://aims.fao.org/aos/agrovoc/xl_pt_1299487147128) for cells containing \"Berinjela\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Repolho",
+                "l": "Repolho"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Repolho",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487062342",
+      "name": "Couve-repolho",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.5384615659713745
+    },
+    "shareNewTopics": false,
+    "description": "Match item Couve-repolho (http://aims.fao.org/aos/agrovoc/xl_pt_1299487062342) for cells containing \"Repolho\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Sorgo",
+                "l": "Sorgo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Sorgo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486835225",
+      "name": "Sorgo",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Sorgo (http://aims.fao.org/aos/agrovoc/xl_pt_1299486835225) for cells containing \"Sorgo\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Citros",
+                "l": "Citros"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Citros",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486867531",
+      "name": "Fruta cítrica",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Fruta cítrica (http://aims.fao.org/aos/agrovoc/xl_pt_1299486867531) for cells containing \"Citros\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Brócolis",
+                "l": "Brócolis"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Brócolis",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487133848",
+      "name": "Brócolos",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Brócolos (http://aims.fao.org/aos/agrovoc/xl_pt_1299487133848) for cells containing \"Brócolis\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Almeirão",
+                "l": "Almeirão"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Almeirão",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487207525",
+      "name": "Amêndoa (fruto)",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Amêndoa (fruto) (http://aims.fao.org/aos/agrovoc/xl_pt_1299487207525) for cells containing \"Almeirão\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Feijão caupi",
+                "l": "Feijão caupi"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Feijão caupi",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487040699",
+      "name": "Caupi",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.4166666865348816
+    },
+    "shareNewTopics": false,
+    "description": "Match item Caupi (http://aims.fao.org/aos/agrovoc/xl_pt_1299487040699) for cells containing \"Feijão caupi\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Mandioquinha-salsa / Batata Baroa",
+                "l": "Mandioquinha-salsa / Batata Baroa"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Mandioquinha-salsa / Batata Baroa",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299497423041",
+      "name": "Mandioquinha",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.3636363744735718
+    },
+    "shareNewTopics": false,
+    "description": "Match item Mandioquinha (http://aims.fao.org/aos/agrovoc/xl_pt_1299497423041) for cells containing \"Mandioquinha-salsa / Batata Baroa\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Feijão vagem",
+                "l": "Feijão vagem"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Feijão vagem",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299524121101",
+      "name": "Vagem",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.4166666865348816
+    },
+    "shareNewTopics": false,
+    "description": "Match item Vagem (http://aims.fao.org/aos/agrovoc/xl_pt_1299524121101) for cells containing \"Feijão vagem\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Noz Pecã",
+                "l": "Noz Pecã"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Noz Pecã",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487219582",
+      "name": "Noz de pecan",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.5833333730697632
+    },
+    "shareNewTopics": false,
+    "description": "Match item Noz de pecan (http://aims.fao.org/aos/agrovoc/xl_pt_1299487219582) for cells containing \"Noz Pecã\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Estévia",
+                "l": "Estévia"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Estévia",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299497299971",
+      "name": "Stevia",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Stevia (http://aims.fao.org/aos/agrovoc/xl_pt_1299497299971) for cells containing \"Estévia\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Nabo",
+                "l": "Nabo"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Nabo",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487139349",
+      "name": "Nabo",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nabo (http://aims.fao.org/aos/agrovoc/xl_pt_1299487139349) for cells containing \"Nabo\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Nectarina",
+                "l": "Nectarina"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Nectarina",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486943389",
+      "name": "Nectarina",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Nectarina (http://aims.fao.org/aos/agrovoc/xl_pt_1299486943389) for cells containing \"Nectarina\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Guaraná",
+                "l": "Guaraná"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Guaraná",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299496233942",
+      "name": "Guaraná",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Guaraná (http://aims.fao.org/aos/agrovoc/xl_pt_1299496233942) for cells containing \"Guaraná\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cará",
+                "l": "Cará"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Cará",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299493206538",
+      "name": "Cará-doce",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.4444444179534912
+    },
+    "shareNewTopics": false,
+    "description": "Match item Cará-doce (http://aims.fao.org/aos/agrovoc/xl_pt_1299493206538) for cells containing \"Cará\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pitanga",
+                "l": "Pitanga"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Pitanga",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299496434804",
+      "name": "Pitanga",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pitanga (http://aims.fao.org/aos/agrovoc/xl_pt_1299496434804) for cells containing \"Pitanga\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Carambola",
+                "l": "Carambola"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Carambola",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486916931",
+      "name": "Carambola",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Carambola (http://aims.fao.org/aos/agrovoc/xl_pt_1299486916931) for cells containing \"Carambola\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Alho poró",
+                "l": "Alho poró"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Alho poró",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487167898",
+      "name": "Alho porro",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.800000011920929
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alho porro (http://aims.fao.org/aos/agrovoc/xl_pt_1299487167898) for cells containing \"Alho poró\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Alfafa",
+                "l": "Alfafa"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Alfafa",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299498193591",
+      "name": "Alfafa brasileira",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.3529411554336548
+    },
+    "shareNewTopics": false,
+    "description": "Match item Alfafa brasileira (http://aims.fao.org/aos/agrovoc/xl_pt_1299498193591) for cells containing \"Alfafa\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Castanha-de-caju",
+                "l": "Castanha-de-caju"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Castanha-de-caju",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487213340",
+      "name": "Castanha de caju",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.875
+    },
+    "shareNewTopics": false,
+    "description": "Match item Castanha de caju (http://aims.fao.org/aos/agrovoc/xl_pt_1299487213340) for cells containing \"Castanha-de-caju\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Arroz (Farinha)",
+                "l": "Arroz (Farinha)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Arroz (Farinha)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487518314",
+      "name": "Farinha de arroz",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.1875
+    },
+    "shareNewTopics": false,
+    "description": "Match item Farinha de arroz (http://aims.fao.org/aos/agrovoc/xl_pt_1299487518314) for cells containing \"Arroz (Farinha)\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Camomila",
+                "l": "Camomila"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Camomila",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487232010",
+      "name": "Camomila",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Camomila (http://aims.fao.org/aos/agrovoc/xl_pt_1299487232010) for cells containing \"Camomila\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Cana-de-açúcar (Açúcar)",
+                "l": "Cana-de-açúcar (Açúcar)"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Cana-de-açúcar (Açúcar)",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487600719",
+      "name": "Açúcar de cana",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.3913043737411499
+    },
+    "shareNewTopics": false,
+    "description": "Match item Açúcar de cana (http://aims.fao.org/aos/agrovoc/xl_pt_1299487600719) for cells containing \"Cana-de-açúcar (Açúcar)\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Damasco",
+                "l": "Damasco"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Damasco",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299486940435",
+      "name": "Damasco",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 1
+    },
+    "shareNewTopics": false,
+    "description": "Match item Damasco (http://aims.fao.org/aos/agrovoc/xl_pt_1299486940435) for cells containing \"Damasco\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Canola",
+                "l": "Canola"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Canola",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_it_1299487292932",
+      "name": "Canola (granella)",
+      "types": [
+        "http://www.w3.org/2008/05/skos-xl#Label"
+      ],
+      "score": 0.3529411554336548
+    },
+    "shareNewTopics": false,
+    "description": "Match item Canola (granella) (http://aims.fao.org/aos/agrovoc/xl_it_1299487292932) for cells containing \"Canola\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Côco",
+                "l": "Côco"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Côco",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487223605",
+      "name": "Coco",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Coco (http://aims.fao.org/aos/agrovoc/xl_pt_1299487223605) for cells containing \"Côco\" in column NO_CULTURA"
+  },
+  {
+    "op": "core/recon-judge-similar-cells",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "list",
+          "name": "NO_CULTURA: judgment",
+          "expression": "forNonBlank(cell.recon.judgment, v, v, if(isNonBlank(value), \"(unreconciled)\", \"(blank)\"))",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "none",
+                "l": "none"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        },
+        {
+          "type": "list",
+          "name": "NO_CULTURA",
+          "expression": "value",
+          "columnName": "NO_CULTURA",
+          "invert": false,
+          "omitBlank": false,
+          "omitError": false,
+          "selection": [
+            {
+              "v": {
+                "v": "Pimenta",
+                "l": "Pimenta"
+              }
+            }
+          ],
+          "selectBlank": false,
+          "selectError": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "NO_CULTURA",
+    "similarValue": "Pimenta",
+    "judgment": "matched",
+    "match": {
+      "id": "http://aims.fao.org/aos/agrovoc/xl_pt_1299487268325",
+      "name": "Pimenta",
+      "types": [
+        ""
+      ],
+      "score": 100
+    },
+    "shareNewTopics": false,
+    "description": "Match item Pimenta (http://aims.fao.org/aos/agrovoc/xl_pt_1299487268325) for cells containing \"Pimenta\" in column NO_CULTURA"
+  }
+]
