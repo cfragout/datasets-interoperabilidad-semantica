@@ -108,7 +108,11 @@ function buildSourceDocument(source) {
     };
 
     if (source.createdBy && source.createdBy.uri) {
-        sourceDocument['dc:creator'] = getWithNamespace(_ORGANIZATION);
+        sourceDocument['dc:creator'] = {
+                    '$': {
+                        'rdf:resource': getWithNamespace(_ORGANIZATION)
+                    }
+                }
     }
 
     if (source.date) {

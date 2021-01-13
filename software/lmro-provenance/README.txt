@@ -4,7 +4,7 @@ Para correr el programa:
 
 $ npm install
 
-$ node --max-old-space-size=9216 index -p provenance.json -i dataset.rdf -o dataset-width-provenance.rdf
+$ node --max-old-space-size=9216 index -p provenance.json -i dataset.rdf -o dataset-with-provenance.rdf
 
 
 Opciones:

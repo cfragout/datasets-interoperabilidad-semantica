@@ -3691,5 +3691,388 @@
       }
     ],
     "description": "Mass edit cells in column Cultivos"
+  },
+    {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column Cultivos using expression value.trim()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "crisantemos"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crisantemo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales y ornamentales ( crisantemo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "crisantemo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales y ornamentales (clavel)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "clavel"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "gladio",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales (gladiolos)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gladiolo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "gladio",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales (gladiolo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gladiolo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "gladio",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales y ornamentales (gladiolos)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gladiolo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "gladio",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "florales y ornamentales (gladiolo)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "gladiolo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "tung"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "tuna"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "pastura de gramíneas"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pasturas de gramíneas"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "orna",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales ( clavel)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "clavel"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "orna",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales (rosal)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "florales y ornamentales (rosal)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "orna",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "ornamentales"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "florales y ornamentales"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "harinas blanca de trigo"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "harina blanca de trigo"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [
+        {
+          "type": "text",
+          "name": "Cultivos",
+          "columnName": "Cultivos",
+          "query": "",
+          "mode": "text",
+          "caseSensitive": false,
+          "invert": false
+        }
+      ],
+      "mode": "row-based"
+    },
+    "columnName": "Cultivos",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "lino (grano lino"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "lino (grano)"
+      }
+    ],
+    "description": "Mass edit cells in column Cultivos"
   }
 ]
