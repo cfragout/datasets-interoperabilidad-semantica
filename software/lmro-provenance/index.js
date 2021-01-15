@@ -269,7 +269,7 @@ function isResidueValue(term) {
 }
 
 // lmro#crop
-function isResidueValue(term) {
+function isCrop(term) {
     return term['$']['rdf:about'].indexOf('/' + _CROP) > -1;
 }
 
