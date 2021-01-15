@@ -18,6 +18,7 @@ const OUTPUT = options.output || 'dataset-with-provenance.rdf';
 
 const _PUBLICATION_ACTIVITY = 'PublicationActivity';
 const _RESIDUE_VALUE = 'ResidueValue';
+const _CROP = 'Crop';
 const _ORGANIZATION = 'Organization';
 const _PUBLICATION = 'Publication';
 const _SOURCE_DOCUMENT = 'SourceDocument';
@@ -56,7 +57,7 @@ Promise.all(promises).then(result => {
 
         // iterate each of the terms, these represet a row in the original table
         rdfContent['rdf:Description'].forEach(term => {
-            if (isRecord(term) || isResidueValue(term)) {
+            if (isRecord(term) || isResidueValue(term) || isCrop(term)) {
                 term['schema:isPartOf'] = {
                     '$': {
                         'rdf:resource': getWithNamespace(_PUBLICATION)
@@ -267,10 +268,16 @@ function isResidueValue(term) {
     return term['$']['rdf:about'].indexOf('/' + _RESIDUE_VALUE) > -1;
 }
 
+// lmro#crop
+function isResidueValue(term) {
+    return term['$']['rdf:about'].indexOf('/' + _CROP) > -1;
+}
+
 // lmro#record
 function isRecord(term) {
     return term['$']['rdf:about'].indexOf('/' + _ORGANIZATION) === -1 &&
             term['$']['rdf:about'].indexOf('/' + _RESIDUE_VALUE) === -1 &&
+            term['$']['rdf:about'].indexOf('/' + _CROP) === -1 &&
             term['$']['rdf:about'].indexOf('/' + _PUBLICATION_ACTIVITY) === -1;    
 }
 
